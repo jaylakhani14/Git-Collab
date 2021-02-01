@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Git Collab </title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <!-- Favicon -->
+</head>
+<body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Git Collaboration</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+          rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body style="background-color: sandybrown">
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: white">GIT Collab </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" style="color: white">Index</a></li>
+                    <li><a href="git.html" style="color: white">GIT</a></li>
+                    <li><a href="docker.html" style="color: white">DOCKER</a></li>
+                </ul>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="new">
+        <h2> Introducing GitFlow</h2>
+        <p>GitFlow is a branching model for Git, created by Vincent Driessen.
+            It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team</p>
+        <p> Key benefits:
+        <li> Parallel Development</li>
+        <li>Collaboration</li>
+        <li>Release Staging Area</li>
+        <li>Support For Emergency Fixes</li>
+        </p>
+
+        <p><strong> How it works</strong></p>
+        <img src="image/gitflow.png" height="500" width="500"/>
+
+        <ol>Some basic commands when using git flow include:
+            <ol>
+                <li>git flow init </li>
+                <li>git flow feature start </li>
+                <li> git flow feature finish </li>
+                <li>git flow feature publish</li>
+            </ol>
+        </ol>
+
+
+        <h2> Repository</h2>
+        <p>
+            Contains all the project files and stores each file's revision history. Example is by creating new respository on the top right corner of the github screen.
+        </p>
+        <p>
+            We can initialize an repo using <br><code>git init</code><br>
+        </p>
+        <h2> Clone</h2>
+        <p> A copy of a respiratory that lives on your computer instead of on website's server somewhere, or act of making that copy.
+        </p>
+        <p> You clone a repo with git clone &lturl&gt. </p>
+        <h2> Fork</h2>
+        <p> A fork is a copy of a repository that maintains a link with the origin repository so changes can be sent back to the original repository, even if it is on a different account. This allows people to work on their own repositories and selectively submit changes back to the original.
+        </p>
+        <p> make changes to someone else's project
+        </p>
+        <img src="image/fork.png" height="350" width="350" alt=""/>
+        <h2> Branch</h2>
+        <p>Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
+        The git branch command lets you create, list, rename, and delete branches. It doesn’t let you switch between branches or put a forked history back together again. </p>
+        </p>
+        <ul>
+            <ul><li><h2>Main branch</h2></li></ul></ul>
+        <p> By default, GitHub names the default branch main in any new repository.</p>
+        <ul>A new branch can be created by typing the following command:
+            <ul>
+                <li style="color: green"> git branch &ltexampleBranch &gt </li></ul>
+        </ul>
+
+        <h2> Git Commit</h2>
+        <p>git commit creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times. You should make new commits often, based around logical units of change.
+        </p>
+        <img src="image/commit.png" height="250" width="250"/>
+        <h2> Git Merge</h2>
+        <p>Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+        </p>
+
+        <h2> Git Checkout</h2>
+        <p>In Git terms, a "checkout" is the act of switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches. In addition to the definition of "checkout" the phrase "checking out" is commonly used to imply the act of executing the git checkout command.
+        </p>
+        <ul> <li style="color: green"> git checkout -b </li></ul></ul></p>
+        <a href="https://www.atlassian.com/git/tutorials/using-branches/git-checkout"> Read More</a> </p>
+        <h2>Git Push</h2>
+        <p>git push updates the remote branch with local commits. It is one of the four commands in Git that prompts interaction with the remote repository. You can also think of git push as update or publish.
+        </p>
+        <img src="image/push.png" height="300" width="300" alt=""/>
+
+        <h2> Git Pull </h2>
+        <p>The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. The command used for pushing to GitHub is given below.
+            git push 'remote_name' 'branch_name'
+        </p>
+
+        <h2>Remote Add / Remove / Show </h2>
+        <p> It creates a new connection to a remote repository.
+        </p>
+        <img src="Image/remote.png" height="450" width="350"/>
+        <h2> Git Status</h2>
+        <p>Status checks are based on external processes, such as continuous integration builds, which run for each push you make to a repository.
+        </p>
+        <ul>
+            <ul><li style="color: green"> git status</li></ul></ul>
+
+        <h2> Master Branch </h2>
+        <p>The default development branch. Whenever you create a Git repository, a branch named "master" is created, and becomes the active branch. In most cases, this contains the local development, though that is purely by convention and is not required.
+        </p>
+
+
+    </div>
+
+
+</header>
+
+</body>
+
+<footer class="foot">
+    <div class="alert alert-primary" role="alert">
+        <small>&copy; Copyright 2021, @Jay Lakhani, Sidharth Vemuri</small>
+    </div>
+</footer>
+</html>

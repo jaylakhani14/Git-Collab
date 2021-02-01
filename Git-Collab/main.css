@@ -1,0 +1,27 @@
+
+.new{
+    width:1180px;
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    flex-flow: row wrap;
+    margin-top: 80px;
+
+}
+.new>*{
+    padding: 3px;
+    margin: 5px;
+    flex: 1 100%;
+    border: 3px;
+}
+
+.foot {
+    font-size: 20px;
+    text-align: -webkit-center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+img {
+    vertical-align: middle;
+}
