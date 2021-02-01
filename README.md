@@ -11,10 +11,12 @@
 ### Jay Lakhani
 
 **Task**
-- Readme
-- Introduction file only
-- Defination
+- commit Readme
 - Changelog
+- commit index.html
+- commit main.css
+- commit image
+- commit all 12 key terms in index.html
 
 **Fixes**
 - files name
@@ -22,14 +24,20 @@
 - project design
 
 **Deletes**
-- file
+- duplicate file
 
 ### Sidharth Vemuri
 
 **Task**
 - Introduction
-- Gitflow
+- commit Gitflow
+- commit docker
+- commit introduction inside the docker
 
 **Fixes**
+ - css file
+ - font
+ - design
+ 
 
 
