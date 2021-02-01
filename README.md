@@ -1,5 +1,8 @@
 # Git-Collab
 
+## Link:
+[website link](https://jaylakhani14.github.io/Git-Collab/Git-Collab/index.html)
+
 ## Contributors:
 - Jay Lakhani
 - Sidharth Vemuri
