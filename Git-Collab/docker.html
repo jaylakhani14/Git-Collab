@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Git Collab Tutorial</title>
+    <title>Git Collab </title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
     <!-- Favicon -->
@@ -27,7 +27,7 @@
 
 
 </head>
-<body style="background-color:blue">
+<body style="background-color: sandybrown">
 <header>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <div class="container">
@@ -47,20 +47,50 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" style="color: white">INDEX</a></li>
-                    <li><a href="git.html" style="color: white">GIT</a></li>
-                    <li><a href="#" style="color: white">DOCKER</a></li>
+                    <li><a href="index.html" style="color: white">Index</a></li>
+                    <li><a href="docker.html" style="color: white">DOCKER</a></li>
                 </ul>
             </div>
         </div><!-- /.container-fluid -->
     </nav>
     <div class="new">
-        <h2>Docker </h2>
+        <h2> What is Docker?</h2>
+        <p>Docker is an open source project that allows users to store items in containers. It allows users to isolate their apps from the environment
+        they are working on. </p>
+        <p> Key benefits:
+        <li> Open Source software</li>
+        <li>Isolate from the environment so that no bugs occur due to local system error</li>
+        <li>Huge community of users</li>
+        </p>
+        <img src="image/docker.png"/>
 
 
 
 
+
+
+
+
+        <h2>How to download Docker:</h2>
+
+        <li>Install VirtualBox. The only component we have to install. Download the installer from the download page and run it. After the installation, reboot the computer. </li>
+        <li>Download docker-machine. We need docker-machine for creating Docker hosts in VirtualBox. Check the release page and download the latest release </li>
+        <li> Install tinycorelinux as Docker host in VirtualBox. Change the memory settings if you want to give Docker more or less memory.</li>
+        <li>Download docker-client.</li>
+        <li>Create a batch file start_docker.bat in the c:\docker folder and insert the following commands.</li>
+        <li>Add c:\docker to the system path.</li>
+        <li>Lastly, we set up shared folders. You can configure a shared folder via Command Prompt with the vboxmanage tool. In this example, I map the Windows folder c:\docker\data to the Docker host. Ensure that the folder exists before you run the command.</li>
+        <li><a href="https://golb.hplar.ch/2019/01/docker-on-windows10-home-scratch.html" style="color: white">For more information, check https://golb.hplar.ch/2019/01/docker-on-windows10-home-scratch.html</a></li>
     </div>
+
+
 </header>
+
 </body>
+
+<footer class="foot">
+    <div class="alert alert-primary" role="alert">
+        <small>&copy; Copyright 2021, @Jay Lakhani, Sidharth Vemuri</small>
+    </div>
+</footer>
 </html>
