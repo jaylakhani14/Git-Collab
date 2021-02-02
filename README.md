@@ -33,11 +33,13 @@
 - commit Gitflow
 - commit docker
 - commit introduction inside the docker
+- commit readme
+- commit image
 
 **Fixes**
  - css file
  - font
  - design
- 
+ - navigation bar 
 
 
